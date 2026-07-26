@@ -1,0 +1,8 @@
+numpy
+pandas
+faker
+scikit-learn
+streamlit
+plotly
+google-generativeai
+python-dotenv

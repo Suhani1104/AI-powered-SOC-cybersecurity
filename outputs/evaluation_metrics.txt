@@ -1,0 +1,16 @@
+=== Detection Accuracy (Imbalanced Labels) ===
+Threshold: anomaly_score > 0.6
+Precision: 0.0159
+Recall:    0.0249
+F1-score:  0.0194
+Confusion Matrix [[TN,FP],[FN,TP]]:
+[[28799   992]
+ [  627    16]]
+
+=== False Positive Rate at Top-1% Alert Budget ===
+Top 304 sessions by anomaly_score
+FP Rate: 0.9737
+
+=== Attack-Type Classification Accuracy ===
+Accuracy on flagged rows: 0.0000
+Flagged rows: 1008
