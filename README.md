@@ -29,9 +29,9 @@ Python · pandas · numpy · scikit-learn (Isolation Forest) · Streamlit · Plo
 
 ```
 project/
-├── data/                          # generated at runtime — not committed
-├── models/                        # trained model artifact — not committed
-├── outputs/                       # evaluation metrics — not committed
+├── data/                          # generated at runtime 
+├── models/                        # trained model artifact 
+├── outputs/                       # evaluation metrics 
 ├── src/
 │   ├── config.py                  # all thresholds/weights/paths, centralized
 │   ├── data_utils.py              # shared log-loading helper
@@ -47,7 +47,7 @@ project/
 ├── dashboard/
 │   └── app.py                      # Step 8 — Streamlit dashboard
 ├── requirements.txt
-├── .env                             # GEMINI_API_KEY — not committed, see below
+├── .env                             # GEMINI_API_KEY 
 └── .gitignore
 ```
 
@@ -61,7 +61,7 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in the project root (never commit this):
+Create a `.env` file in the project root :
 ```
 GEMINI_API_KEY=your_key_here
 ```
@@ -107,7 +107,3 @@ Run `python src/evaluate.py` after Step 5 to generate `outputs/evaluation_metric
 
 ---
 
-## Team / Submission
-
-- Problem Statement: AI-Powered Behavioral Anomaly Detection for Cybersecurity
-- Built solo in a 36-hour hackathon
